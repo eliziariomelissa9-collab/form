@@ -20,12 +20,6 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
     return;
   }
-  if(!senha.includes( || '0' || '1' || '2' || '3'
-  || '4' || '5' || '6' || '7' || '8' || '9')){
-    alert('A senha precisa ter números');
-    event.preventDefault();
-    return;
-  }
 
   // Se chegar aqui, o envio prossegue
   console.log('Formulário enviado com sucesso!');
